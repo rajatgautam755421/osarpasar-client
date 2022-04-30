@@ -1,0 +1,30 @@
+.footer {
+  background-color: #0f0f0f;
+  color: white;
+  padding: 25px;
+}
+.footer_div {
+  margin-top: 20px !important;
+}
+
+.footer_header {
+  font-weight: bold;
+  font-size: 28px;
+  color: rgb(255, 253, 253);
+}
+.fa {
+  color: white;
+}
+.fa:hover {
+  color: white;
+}
+
+.footer_text {
+  color: gray;
+}
+.footer_image {
+  height: 70px;
+  width: auto;
+  margin-top: 30px;
+  border-radius: 10px;
+}

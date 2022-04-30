@@ -1,0 +1,11 @@
+.contact {
+  padding: 20px;
+  display: flex;
+  background-color: rgb(241, 238, 238);
+  flex-direction: column;
+}
+.contact_us {
+  font-size: 18px;
+  color: gray;
+  margin: 50px 10px;
+}

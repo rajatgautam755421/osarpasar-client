@@ -1,0 +1,123 @@
+.add_photo {
+  background-color: aliceblue;
+}
+.contact__us__main__button {
+  border: 2px solid #d90081 !important;
+  background-color: transparent;
+  color: black;
+}
+
+.contact__us__main__button:hover {
+  background-color: #d90081 !important;
+  color: white;
+  border: none;
+}
+.contact__input__main {
+  border: 2px solid lightgray !important;
+}
+
+.contact__input__main:focus {
+  /* border: #d90081 !important; */
+  border: 2px solid #d90081 !important;
+}
+.main__secction1 {
+  height: auto !important;
+}
+
+/*Modal */
+#css-modal {
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  pointer-events: none;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  z-index: 10000000;
+}
+
+#css-modal .css-modal-check {
+  display: none;
+  pointer-events: auto;
+}
+
+#css-modal .css-modal-check:checked ~ .css-modal {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+#css-modal .css-modal {
+  background: transparent;
+  border-radius: 10px;
+  display: inline-block;
+  max-height: 100vh;
+  opacity: 0;
+  padding: 2.25em;
+  pointer-events: none;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  white-space: normal;
+  z-index: 1;
+}
+
+#css-modal .css-modal p {
+  text-align: left;
+}
+
+#css-modal .css-modal .close {
+  position: absolute;
+  right: 1em;
+  cursor: pointer;
+  top: 0.5em;
+}
+
+#css-modal .css-modal-check:checked ~ #overlay {
+  opacity: 0.8;
+  pointer-events: auto;
+}
+
+#css-modal #overlay {
+  background: #000;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: opacity 0.8s;
+}
+
+#css-modal:before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.close:after {
+  color: #d90081;
+  content: "\0058";
+  float: right;
+  font-size: 1.75em;
+}
+.box {
+  border: 1px solid #afadaf;
+  border-left: none;
+  padding: 10px;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+.track_table {
+  padding: 50px;
+  overflow-x: scroll;
+}
+.detail {
+  width: 300px;
+  float: right;
+}
